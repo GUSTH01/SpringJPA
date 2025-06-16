@@ -30,7 +30,7 @@ public class UsuarioService {
         return usuarioRepository.findAll();
     }
 
-    public Optional<Usuario> buscaPorID(String nome){
+    public Optional<Usuario> buscaPorNome(String nome){
         return usuarioRepository.findByNome(nome);
     }
 
